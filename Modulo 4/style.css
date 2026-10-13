@@ -1,0 +1,19 @@
+
+h1 {
+  font-family: Arial, sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+}
+
+h2 {
+  font-family: Arial, sans-serif;
+  font-size: 28px;
+  color: purple;
+}
+
+p {
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+}

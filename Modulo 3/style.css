@@ -1,0 +1,21 @@
+
+body {
+  background-color: rgb(22, 151, 226);
+}
+
+h1 {
+  color: rgb(75, 231, 135);
+}
+
+h2 {
+  color: rgb(95, 15, 46);
+}
+
+p {
+  color: rgb(163, 180, 6);
+}
+
+button {
+  background-color: rgb(87, 73, 139);
+  color: rgb(9, 209, 159);
+}

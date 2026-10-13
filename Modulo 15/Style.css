@@ -1,0 +1,169 @@
+/* ==========================================
+   1. ESTILOS GENERALES Y FUENTE DE PÁRRAFOS
+   ========================================== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* Usamos Times New Roman para todos los párrafos y textos del sitio */
+  font-family: 'Times New Roman', Times, serif;
+  line-height: 1.6;
+  background-color: #d11212; /* Fondo oscuro cinematográfico */
+  color: #16789e;            /* Texto claro */
+  padding-bottom: 40px;
+  font-size: 1.15rem;        /* Un toque más grande para que se lea mejor con esta letra */
+}
+
+/* ==========================================
+   2. ENCABEZADO (HEADER) Y TIPOGRAFÍA DE TÍTULOS
+   ========================================== */
+header {
+  background-color: #409b16;
+  text-align: center;
+  padding: 50px 20px;
+  border-bottom: 3px solid #8b0000; /* Detalle en rojo oscuro */
+}
+
+/* Aplicamos Rubik 80s Fade al título principal */
+#titulo {
+  font-family: 'Rubik 80s Fade', system-ui;
+  color: #090777;
+  font-size: 3.5rem; /* Un poco más grande para destacar el efecto desgastado */
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+nav {
+  background-color: #800a0a;
+  text-align: center;
+  padding: 12px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+nav a {
+  /* Enlaces de navegación combinados con un estilo formal */
+  color: #94033f;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 0 15px;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #8b0000;
+}
+
+/* ==========================================
+   3. TEXTO INTRODUCTORIO
+   ========================================== */
+body > p, body > strong {
+  display: block;
+  max-width: 800px;
+  margin: 25px auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+body > strong {
+  color: #cfb997; /* Color dorado apagado */
+  font-style: italic;
+  font-weight: normal;
+}
+
+/* ==========================================
+   4. SECCIONES Y TARJETA
+   ========================================== */
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 40px;
+  padding-top: 60px;
+}
+
+.tarjeta {
+  background-color: #1e1e1e;
+  border: 1px solid #333;
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+}
+
+/* Aplicamos Rubik 80s Fade a los títulos secundarios también */
+.tarjeta h2, #contacto h2 {
+  font-family: 'Rubik 80s Fade', system-ui;
+  font-size: 2rem;
+  color: #fff;
+  margin-bottom: 20px;
+  border-left: 5px solid #8b0000;
+  padding-left: 12px;
+}
+
+.tarjeta p {
+  margin-bottom: 15px;
+  color: #ccc;
+}
+
+.tarjeta p:nth-of-type(2) {
+  font-weight: bold;
+  color: #cfb997;
+}
+
+.tarjeta p:nth-of-type(3) {
+  font-size: 1rem;
+  color: #888;
+}
+
+/* ==========================================
+   5. EL BOTÓN "VER MÁS"
+   ========================================== */
+button {
+  background-color: #8b0000;
+  color: white;
+  border: none;
+  padding: 12px 26px;
+  font-size: 1.05rem;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+button:hover {
+  background-color: #b30000;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(139, 0, 0, 0.4);
+}
+
+button:active {
+  transform: translateY(0);
+}
+
+/* ==========================================
+   6. SECCIÓN DE CONTACTO Y FOOTER
+   ========================================== */
+#contacto {
+  background-color: #1a1a1a;
+  border-radius: 12px;
+  padding: 30px;
+  text-align: center;
+  border: 1px solid #222;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #0a0a0a;
+  color: #666;
+  font-size: 1rem;
+  border-top: 1px solid #222;
+}
